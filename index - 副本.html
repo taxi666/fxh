@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<title>分享汇</title>
+<link rel="apple-touch-icon-precomposed" href="custom_icon.png">
+<link rel="stylesheet" href="http://webresource.c-ctrip.com/styles/h5/corp/nirvana.css?0900654" media="all"> <!-- 公用库 -->
+<link rel="stylesheet" href="http://webresource.c-ctrip.com/styles/h5/corp/hotel.css?0900654" media="all"> <!-- 私有样式 -->
+</head>
+<body>
+<form action="#">
+	<header class="">
+      <h1><span>国内/国际酒店</span></h1>      
+      <span class="nav-back"> <i class="icon-back"></i> </span>
+      <div class="top-container">
+          <!-- tab primary S -->
+          <ul class="tab tab-primary">
+              <li class="cur">选项一</li>
+              <li>选项二</li>
+          </ul>
+          <!-- tab primary E -->  
+      </div>
+    </header>        
+<!-- page slide container S -->
+	<section class="main">		
+	<!-- single page 1 -->
+	<article id="wrapper">
+		<div class="container hotel-search">
+			<div class="search-board">
+				<div class="grid board-container">
+					<div class="col-12 board-item">
+						 <span class="search-title"> <i class="icon-hotel-sm"></i> 入住城市</span> <br/>
+						 <b class="search-name"> 北京北京北京北京 </b>
+					</div>
+				</div>
+				<div class="grid board-container double"> <!-- double 往返 -->
+					<div class="col-6 board-item">
+                         <span class="single-item">
+						     <span class="search-title"> <i class="icon-calendar-sm"></i> 入住日期</span> <br/>
+						     <span class="txt-datetime"> <b>01</b>月<b>12</b>日 </span>
+                         </span>
+                         <span class="single-item extdatetime">
+                             <span class="search-title"> 2014</span> <br/>
+						     <span class=""> 星期四 </span>
+                         </span>
+					</div>
+                    <div class="col-6 board-item">
+                        <span class="single-item">
+						     <span class="search-title"> <i class="icon-calendar-sm"></i> 离店日期</span> <br/>
+						     <span class="txt-datetime"> <b>01</b>月<b>12</b>日 </span>
+                         </span>
+                         <span class="single-item extdatetime">
+                             <span class="search-title"> 2014</span> <br/>
+						     <span class=""> 星期四 </span>
+                         </span>
+					</div>
+				</div>
+			</div>
+
+			<div class="figure figure-hotel-search"> <!-- 海外添加 int -->
+				<div class="grid grid-demhotel"> 
+					<div class="col-4"> <label>地理位置</label></div>
+                  	<div class="col-8"> 
+						<input type="text" class="inner-control" value="" placeholder="不限" >
+                  	</div>
+				</div>
+				<!-- 海外酒店 -->
+				<div class="grid grid-inthotel"> 
+					<div class="col-4"> <label>预订间数</label></div>
+                  	<div class="col-8"> 
+						<span class="button-counter"><i class="plus">+</i><em>1</em><i class="reduce">-</i></span>
+                  	</div>
+				</div>
+				<div class="grid"> 
+					<div class="col-4"> <label>酒店名称</label></div>
+                  	<div class="col-8"> 
+						<input type="text" class="inner-control" value="" placeholder="请输入酒店名称" >
+                  	</div>
+				</div>
+			</div>
+	
+			<div class="figure">
+				<div class="grid row-select"> <!-- 模拟select -->
+					<div class="col-4"> <label>为本人预订</label> </div>
+					<div class="col-8"> <span class="txt-figure"> </span> <i class="arr arr-r"></i> </div>
+					<select id="">
+						<option value="">为本人预订</option>
+						<option value="">为他人预订</option>
+						<option value="">为多人预订</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="button-panel">
+				<button class="btn-lg btn-primary"> 查 询 </button>
+			</div>
+
+		</div>			
+	</article>
+	</section>
+	<!-- page slide container E -->	
+<script type="text/javascript" src="../js/frame.min.js"></script>
+<script type="text/javascript" src="../js/demo.js"></script>
+</form>	
+</body>
+</html> 
